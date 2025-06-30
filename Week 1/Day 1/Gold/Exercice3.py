@@ -1,0 +1,1 @@
+print(type("salam"))  # Output: <class 'int'>
