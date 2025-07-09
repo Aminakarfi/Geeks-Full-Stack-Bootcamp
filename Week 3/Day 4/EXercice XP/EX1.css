@@ -1,0 +1,53 @@
+/* General body styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f4f0;
+  margin: 0;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+/* Article card styling */
+article {
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 30px;
+  max-width: 700px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  color: #3b3b3b;
+  line-height: 1.7;
+}
+
+/* Heading styles */
+article h1 {
+  color: #4b2e2e;
+  font-size: 32px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+article h2 {
+  color: #6b3f3f;
+  font-size: 26px;
+  margin-bottom: 8px;
+}
+
+article h3 {
+  color: #8a4b4b;
+  font-size: 20px;
+  margin-bottom: 12px;
+  font-style: italic;
+}
+
+/* Paragraph styles */
+article p {
+  margin-bottom: 16px;
+  font-size: 17px;
+  color: #444;
+}
+
+article p:last-child {
+  font-weight: bold;
+  color: #5a2a2a;
+}

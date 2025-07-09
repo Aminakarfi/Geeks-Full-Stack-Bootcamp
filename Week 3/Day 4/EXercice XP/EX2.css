@@ -1,0 +1,55 @@
+form {
+  background-color: #f2f2f2;
+  padding: 20px;
+  width: 300px;
+  margin: 20px auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+  font-weight: bold;
+  display: block;
+  margin-top: 10px;
+  color: #333;
+}
+
+form input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.usersAnswer {
+  width: 300px;
+  margin: 20px auto;
+  padding-left: 0;
+  list-style: none;
+}
+
+.usersAnswer li {
+  background-color: #e6f7ff;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 5px;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
