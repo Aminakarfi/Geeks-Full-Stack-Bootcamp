@@ -15,7 +15,7 @@ function hotelCost() {
 function playRideCost() {
     let destination 
     while (true) {
-        let destination = prompt("Where are you going? Enter a number")
+        let destination = prompt("Where are you going? Enter a number");
         if (typeof(destination) === 'string'){
             switch(destination.toLowerCase()){
                case "paris": return confirm("The cost of the ride is 220$");
@@ -32,8 +32,8 @@ function rentalCarCost() {
     let rentalCar
     while (true){
         rentalCar = prompt("How many days are going to rent the car?")
-        if (rentalCar <= 10) return confirm(`the total is ${rentalCar * 40}$`);
-        else return confirm(`the total is ${(rentalCar * 40 * 50) / 100}$`);
+           if (rentalCar <= 10) return confirm(`the total is ${rentalCar * 40}$`);
+           else return confirm(`the total is ${(rentalCar * 40 * 50) / 100}$`);
 
     }
 }
