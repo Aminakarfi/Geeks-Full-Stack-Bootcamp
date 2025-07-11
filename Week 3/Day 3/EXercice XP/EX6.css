@@ -1,0 +1,36 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+#navBar, #socialNetworkNavigation {
+  background-color: #333;
+  padding: 15px 0;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+#navBar ul, 
+#socialNetworkNavigation ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+#navBar li, 
+#socialNetworkNavigation li {
+  margin: 0 20px;
+}
+
+#navBar a, 
+#socialNetworkNavigation a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 6px 10px;
+  border-radius: 4px;
+  transition: background 0.3s ease;
+}
+
+#navBar a:hover, 
+#socialNetworkNavigation a:hover {
+  background-color: #555;
+}

@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  margin: 40px;
+  font-size: 18px;
+  color: #333;
+}
+
+#container {
+  background-color: lightblue;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+ul.list {
+  list-style-type: none;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  background-color: #fff;
+}
+
+ul.list li {
+  padding: 8px 10px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+ul.list li:last-child {
+  border-bottom: none;
+}
+
+.university {
+  background-color: #e9f7ef;
+}
+
+.attendance {
+  font-style: italic;
+}
+
+li {
+  transition: all 0.3s ease-in-out;
+}
+
+li:hover {
+  background-color: #e0f0ff;
+  cursor: pointer;
+}
+`
