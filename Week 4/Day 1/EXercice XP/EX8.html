@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>Juice Bar Exercise</title>
+</head>
+<body>
+
+<div id="output"></div>
+
+<script>
+// Part I
+function makeJuice(size) {
+  function addIngredients(ing1, ing2, ing3) {
+    const sentence = `The client wants a ${size} juice, containing ${ing1}, ${ing2}, ${ing3}.`;
+    // Display on DOM
+    document.getElementById('output').innerHTML = sentence;
+  }
+  // Invoke addIngredients once
+  addIngredients("apple", "banana", "orange");
+}
+
+// Call the function globally
+makeJuice("medium");
+
+
+// Part II (you can comment out Part I when running Part II)
+
+function makeJuice(size) {
+  const ingredients = [];
+
+  function addIngredients(ing1, ing2, ing3) {
+    ingredients.push(ing1, ing2, ing3);
+  }
+
+  function displayJuice() {
+    // Join all ingredients with comma
+    const ingredientsList = ingredients.join(", ");
+    const sentence = `The client wants a ${size} juice, containing ${ingredientsList}.`;
+    document.getElementById('output').innerHTML = sentence;
+  }
+
+  // Client wants 6 ingredients, so call twice
+  addIngredients("apple", "banana", "orange");
+  addIngredients("pineapple", "mango", "kiwi");
+
+  // Display the juice order
+  displayJuice();
+}
+
+// Invoke the function globally
+makeJuice("large");
+</script>
+
+</body>
+</html>
